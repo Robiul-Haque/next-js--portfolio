@@ -13,15 +13,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className='bg-gradient-to-r from-green-400 to-blue-400'>
-        <section className='grid-cols-12 gap-6 px-5 lg:px-48 lg:grid my-14 sm:px-20 md:px-32'>
+        <div className='grid-cols-12 gap-6 lg:px-52 lg:grid my-14 sm:px-20 md:px-32'>
           <aside className='col-span-3 p-4 mb-4 bg-white rounded-2xl'>
             <Sidebar></Sidebar>
           </aside>
-          <section className='flex flex-col col-span-9 p-4 bg-white rounded-2xl'>
+          <div className='flex flex-col col-span-9 bg-white rounded-2xl'>
             <Navbar></Navbar>
             {children}
-          </section>
-        </section>
+          </div>
+        </div>
       </body>
     </html>
   )

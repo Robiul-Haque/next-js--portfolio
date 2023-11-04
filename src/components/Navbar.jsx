@@ -9,7 +9,7 @@ const Navbar = () => {
 
     useEffect(() => {
         if (pathname === '/') {
-            setActiveItem('Home');
+            setActiveItem('About');
         } else if (pathname === '/project') {
             setActiveItem('Project');
         } else if (pathname === '/resume') {
@@ -18,12 +18,12 @@ const Navbar = () => {
     }, [pathname]);
 
     return (
-        <nav className="flex items-center justify-between px-5 py-3 my-3">
+        <nav className="flex items-center justify-between px-6 py-3 my-3">
             <span className="text-xl font-bold text-green-500 border-b-4 border-green-500 md:text-2xl">{activeItem}</span>
             <ul className="flex gap-6 text-lg font-medium">
                 {
-                    activeItem !== 'Home' && <li className="hover:text-green-500">
-                        <Link href={'/'} onClick={() => setActiveItem('Home')}>Home</Link>
+                    activeItem !== 'About' && <li className="hover:text-green-500">
+                        <Link href={'/'} onClick={() => setActiveItem('About')}>About</Link>
                     </li>
                 }
                 {
