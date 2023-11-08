@@ -100,13 +100,6 @@ const page = () => {
                             <span className="mr-4">30%</span>
                         </div>
                         <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
-                            <div className="flex items-center px-4 py-1 rounded-full w-1/6 bg-gradient-to-r from-green to-blue-500">
-                                <Image src={node} alt="HTML" width={30} height={30}></Image>
-                                <span className="ml-3 text-black">NODE</span>
-                            </div>
-                            <span className="mr-4">10%</span>
-                        </div>
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
                             <div className="flex items-center px-4 py-1 rounded-full w-2/5 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={next} alt="HTML" width={25} height={25}></Image>
                                 <span className="ml-3 text-black">NEXT JS</span>
