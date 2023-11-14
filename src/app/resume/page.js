@@ -44,136 +44,136 @@ const page = () => {
                 <div>
                     <h5 className="my-3 text-2xl font-bold">Language & Framework</h5>
                     <div className="my-2">
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
                             <div className="flex items-center px-4 py-1 rounded-full w-1/2 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={html} alt="HTML" width={25} height={25}></Image>
                                 <span className="ml-3 text-black">HTML</span>
                             </div>
-                            <span className="mr-4">50%</span>
+                            {/* <span className="mr-4">50%</span> */}
                         </div>
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
                             <div className="flex items-center px-4 py-1 rounded-full w-2/5 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={css} alt="HTML" width={25} height={25}></Image>
                                 <span className="ml-3 text-black">CSS</span>
                             </div>
-                            <span className="mr-4">40%</span>
+                            {/* <span className="mr-4">40%</span> */}
                         </div>
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
                             <div className="flex items-center px-4 py-1 rounded-full w-3/5 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={bootstrap} alt="HTML" width={20} height={20}></Image>
                                 <span className="ml-3 text-black">BOOTSTRAP</span>
                             </div>
-                            <span className="mr-4">60%</span>
+                            {/* <span className="mr-4">60%</span> */}
                         </div>
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
                             <div className="flex items-center px-4 py-1 rounded-full w-1/2 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={tailwind} alt="HTML" width={25} height={25}></Image>
                                 <span className="ml-3 text-black">TAILWIND</span>
                             </div>
-                            <span className="mr-4">50%</span>
+                            {/* <span className="mr-4">50%</span> */}
                         </div>
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
                             <div className="flex items-center px-4 py-1 rounded-full w-1/2 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={javascript} alt="HTML" width={25} height={25}></Image>
                                 <span className="ml-3 text-black">JAVASCRIPT</span>
                             </div>
-                            <span className="mr-4">50%</span>
+                            {/* <span className="mr-4">50%</span> */}
                         </div>
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
                             <div className="flex items-center px-4 py-1 rounded-full w-3/5 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={react} alt="HTML" width={25} height={25}></Image>
                                 <span className="ml-3 text-black">REACT JS</span>
                             </div>
-                            <span className="mr-4">60%</span>
+                            {/* <span className="mr-4">60%</span> */}
                         </div>
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
                             <div className="flex items-center px-4 py-1 rounded-full w-1/4 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={express} alt="HTML" width={20} height={20}></Image>
                                 <span className="ml-3 text-black">EXPRESS</span>
                             </div>
-                            <span className="mr-4">20%</span>
+                            {/* <span className="mr-4">20%</span> */}
                         </div>
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
                             <div className="flex items-center px-4 py-1 rounded-full w-1/3 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={mongo} alt="HTML" width={20} height={20}></Image>
                                 <span className="ml-3 text-black">MONGODB</span>
                             </div>
-                            <span className="mr-4">30%</span>
+                            {/* <span className="mr-4">30%</span> */}
                         </div>
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
                             <div className="flex items-center px-4 py-1 rounded-full w-2/5 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={next} alt="HTML" width={25} height={25}></Image>
                                 <span className="ml-3 text-black">NEXT JS</span>
                             </div>
-                            <span className="mr-4">40%</span>
+                            {/* <span className="mr-4">40%</span> */}
                         </div>
                     </div>
                 </div>
                 <div>
                     <h5 className="my-3 text-2xl font-bold">Tools & Softwares</h5>
                     <div className="my-2">
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
                             <div className="flex items-center px-4 py-1 rounded-full w-1/2 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={figma} alt="HTML" width={25} height={25}></Image>
                                 <span className="ml-3 text-black">FIGMA</span>
                             </div>
-                            <span className="mr-4">50%</span>
+                            {/* <span className="mr-4">50%</span> */}
                         </div>
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
-                            <div className="flex items-center px-4 py-1 rounded-full w-1/3 bg-gradient-to-r from-green to-blue-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
+                            <div className="flex items-center px-4 py-1 rounded-full w-1/2 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={xd} alt="HTML" width={25} height={25}></Image>
-                                <span className="ml-3 text-black">FIGMA</span>
+                                <span className="ml-3 text-black">ADOBE XD</span>
                             </div>
-                            <span className="mr-4">30%</span>
+                            {/* <span className="mr-4">50%</span> */}
                         </div>
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
                             <div className="flex items-center px-4 py-1 rounded-full w-3/4 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={firebase} alt="HTML" width={15} height={15}></Image>
                                 <span className="ml-3 text-black">FIREBASE</span>
                             </div>
-                            <span className="mr-4">70%</span>
+                            {/* <span className="mr-4">70%</span> */}
                         </div>
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
-                            <div className="flex items-center px-4 py-1 rounded-full w-1/3 bg-gradient-to-r from-green to-blue-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
+                            <div className="flex items-center px-4 py-1 rounded-full w-1/2 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={circle} alt="HTML" width={15} height={15}></Image>
                                 <span className="ml-3 text-black">FRAMER</span>
                             </div>
-                            <span className="mr-4">30%</span>
+                            {/* <span className="mr-4">50%</span> */}
                         </div>
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
-                            <div className="flex items-center px-4 py-1 rounded-full w-1/3 bg-gradient-to-r from-green to-blue-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
+                            <div className="flex items-center px-4 py-1 rounded-full w-1/2 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={circle} alt="HTML" width={15} height={15}></Image>
                                 <span className="ml-3 text-black">TAN STACK</span>
                             </div>
-                            <span className="mr-4">30%</span>
+                            {/* <span className="mr-4">50%</span> */}
                         </div>
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
-                            <div className="flex items-center px-4 py-1 rounded-full w-2/5 bg-gradient-to-r from-green to-blue-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
+                            <div className="flex items-center px-4 py-1 rounded-full w-1/2 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={circle} alt="HTML" width={15} height={15}></Image>
                                 <span className="ml-3 text-black">HOOK FORM</span>
                             </div>
-                            <span className="mr-4">40%</span>
+                            {/* <span className="mr-4">50%</span> */}
                         </div>
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
                             <div className="flex items-center px-4 py-1 rounded-full w-1/2 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={circle} alt="HTML" width={15} height={15}></Image>
                                 <span className="ml-3 text-black">REACT ROUTER</span>
                             </div>
-                            <span className="mr-4">50%</span>
+                            {/* <span className="mr-4">50%</span> */}
                         </div>
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
                             <div className="flex items-center px-4 py-1 rounded-full w-3/5 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={circle} alt="HTML" width={15} height={15}></Image>
                                 <span className="ml-3 text-black">JWT</span>
                             </div>
-                            <span className="mr-4">60%</span>
+                            {/* <span className="mr-4">60%</span> */}
                         </div>
-                        <div className="flex justify-between items-center my-3 rounded-full border dark:bg-dark-300 dark:bg-black-500">
+                        <div className="flex justify-between items-center my-3 rounded-full bg-gray-200 dark:bg-[#16181d]">
                             <div className="flex items-center px-4 py-1 rounded-full w-2/5 bg-gradient-to-r from-green to-blue-500">
                                 <Image src={circle} alt="HTML" width={15} height={15}></Image>
                                 <span className="ml-3 text-black">SWIPER JS</span>
                             </div>
-                            <span className="mr-4">40%</span>
+                            {/* <span className="mr-4">40%</span> */}
                         </div>
                     </div>
                 </div>

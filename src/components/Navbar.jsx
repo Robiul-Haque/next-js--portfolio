@@ -10,7 +10,7 @@ const Navbar = () => {
     useEffect(() => {
         if (pathname === '/') {
             setActiveItem('About');
-        } else if (pathname === '/project') {
+        } else if (pathname === '/project' || pathname === '/project/react' || pathname === '/project/mern' || pathname === '/project/next') {
             setActiveItem('Project');
         } else if (pathname === '/resume') {
             setActiveItem('Resume');
