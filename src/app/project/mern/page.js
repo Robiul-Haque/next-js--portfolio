@@ -1,9 +1,10 @@
+import MernProject from "@/components/MernProject";
 
 const Mern = () => {
     return (
-        <div>
-            Mern
-        </div>
+        <>
+            <MernProject></MernProject>
+        </>
     );
 };
 

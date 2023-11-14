@@ -18,7 +18,7 @@ const ProjectsNavbar = () => {
     }, [pathname]);
 
     return (
-        <nav>
+        <nav className="md:mb-10 lg:mb-10">
             <ul className="flex justify-center gap-x-8 font-medium">
                 <li><Link href="/project/react" onClick={() => setActiveItem('react')} className={activeItem === 'react' ? 'text-green-500' : ''}>React</Link></li>
                 <li><Link href="/project/mern" onClick={() => setActiveItem('mern')} className={activeItem === 'mern' ? 'text-green-500' : ''}>MERN</Link></li>

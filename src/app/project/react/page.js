@@ -1,9 +1,10 @@
+import ReactProject from "@/components/ReactProject";
 
 const React = () => {
     return (
-        <div>
-            React
-        </div>
+        <>
+            <ReactProject></ReactProject>
+        </>
     );
 };
 

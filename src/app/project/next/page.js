@@ -1,9 +1,10 @@
+import NextProject from "@/components/NextProject";
 
 const Next = () => {
     return (
-        <div>
-            Next
-        </div>
+        <>
+            <NextProject></NextProject>
+        </>
     );
 };
 
