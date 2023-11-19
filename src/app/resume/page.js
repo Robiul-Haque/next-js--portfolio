@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image";
-import { animate, motion } from "framer-motion"
+import { motion } from "framer-motion";
 import html from '../../../public/html.png';
 import css from '../../../public/css.png';
 import bootstrap from '../../../public/bootstrap.png';
