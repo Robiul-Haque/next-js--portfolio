@@ -6,6 +6,15 @@ import { CiMobile3 } from "react-icons/ci";
 import { motion } from "framer-motion";
 
 const page = () => {
+    const stagger = {
+        initial: {},
+        animate: {
+            transition: {
+                staggerChildren: 0.1
+            }
+        }
+    }
+
     const fadeInUp = {
         initial: {
             opacity: 0,
@@ -14,15 +23,6 @@ const page = () => {
         animate: {
             opacity: 1,
             y: 0
-        }
-    }
-
-    const stagger = {
-        initial: {},
-        animate: {
-            transition: {
-                staggerChildren: 0.1
-            }
         }
     }
 
