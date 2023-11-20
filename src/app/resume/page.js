@@ -16,7 +16,6 @@ import firebase from '../../../public/firebase.png';
 import circle from '../../../public/circle.png';
 
 const page = () => {
-
     const variants = {
         initial: {
             opacity: 0,

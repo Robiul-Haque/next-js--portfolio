@@ -36,7 +36,7 @@ const page = () => {
                 <h4 className="mt-6 text-xl font-semibold tracking-wide">
                     What I am doing
                 </h4>
-                <motion.div className="grid gap-8 my-8 md:grid-cols-2" variants={stagger} initial="initial" animate="animate">
+                <motion.div className="grid gap-8 my-8 md:grid-cols-2" variants={stagger} initial="initial" animate="animate" exit="exit">
                     <motion.div className='flex items-center p-4 space-x-4 bg-white rounded-lg dark:bg-[#16181d]' variants={fadeInUp}>
                         <HiMiniComputerDesktop className='w-12 h-12 text-green-500'></HiMiniComputerDesktop>
                         <div className="dark:text-white">
