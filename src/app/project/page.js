@@ -97,7 +97,7 @@ const page = () => {
                     </div>
                     <div className="flex justify-center flex-wrap gap-x-3 my-6">
                         <button className="bg-gray-200 dark:bg-[#16181d] rounded py-1 px-3 my-2 font-medium hover:text-green-500 border hover:border-green-500 hover:shadow-md dark:hover:shadow-none">
-                            <Link href="https://toy-world.netlify.app/" target="_blank">Live Site</Link>
+                            <Link href="https://dance-zone.netlify.app/" target="_blank">Live Site</Link>
                         </button>
                         <button className="bg-gray-200 dark:bg-[#16181d] rounded py-2 px-3 my-2 font-medium hover:text-green-500 border hover:border-green-500 hover:shadow-md dark:hover:shadow-none">
                             <Link href="https://github.com/Robiul-Haque/dance-zone-client-side" target="_blank">Client Side</Link>
