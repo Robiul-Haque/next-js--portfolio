@@ -26,7 +26,7 @@ const Sidebar = () => {
 
     return (
         <div className='text-center'>
-            <Image src="/robiul.jpg" alt="Robiul Photo" width={100} height={100} className='mx-auto rounded-full h-28 w-28' />
+            <Image src="/Robiul-Haque.jpg" alt="Robiul Photo" width={100} height={100} className='mx-auto rounded-full h-28 w-28' />
             <h3 className='my-4 text-3xl font-medium'>
                 <span className='text-green-500'>Robiul</span> Haque
             </h3>
@@ -38,7 +38,7 @@ const Sidebar = () => {
                 <Link href="https://github.com/Robiul-Haque" target='_blank'>
                     <i><FaGithub className='w-8 h-8 cursor-pointer' /></i>
                 </Link>
-                <Link href="https://www.linkedin.com/feed/" target='_blank'>
+                <Link href="https://www.linkedin.com/in/robiul-haque-frontend-developer/" target='_blank'>
                     <i><FaLinkedin className='w-8 h-8 cursor-pointer' /></i>
                 </Link>
             </div>
