@@ -31,7 +31,7 @@ const Sidebar = () => {
                 <span className='text-green-500'>Robiul</span> Haque
             </h3>
             <p className='px-2 py-1 my-3 bg-gray-200 rounded-full dark:text-white dark:bg-[#16181d]'>Web Developer</p>
-            <Link href='#' target='_blank' download='name' className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full gap-x-2 hover:text-green-500 hover:duration-300 dark:text-white dark:bg-[#16181d] dark:hover:text-green-500 dark:hover:duration-300'>
+            <Link href='https://drive.google.com/file/d/1QTDcmsNz37ACRCOf1y9cZL3sIe6WrZ7x/view?usp=sharing' target='_blank' download='name' className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full gap-x-2 hover:text-green-500 hover:duration-300 dark:text-white dark:bg-[#16181d] dark:hover:text-green-500 dark:hover:duration-300'>
                 <i><FaDownload /></i> Download Resume
             </Link>
             <div className='flex justify-center w-9/12 mx-auto text-green-500 mt-6 gap-x-8 md:w-full'>
