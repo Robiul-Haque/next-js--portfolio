@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
       <body className='bg-fixed bg-gradient-to-r from-green-400 to-blue-400'>
         <NextThemesProvider attribute="class">
           <div className='grid-cols-12 gap-6 lg:px-52 lg:grid my-14 sm:px-20 md:px-32 dark:bg-[#0d0f11]'>
-            <aside className='col-span-3 p-4 mb-10 md:mb-0 lg:mb-0 xl:mb-0 bg-white rounded-2xl dark:bg-black'>
+            <aside className='col-span-3 p-4 mb-10 md:mb-2 lg:mb-2 xl:mb-2 bg-white rounded-2xl dark:bg-black'>
               <Sidebar></Sidebar>
             </aside>
             <div className='flex flex-col col-span-9 bg-white rounded-2xl dark:bg-black'>
